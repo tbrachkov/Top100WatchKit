@@ -7,11 +7,15 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "DetailTransition.h"
+#import "Application.h"
+
+#define isIOS7 floor(NSFoundationVersionNumber) > NSFoundationVersionNumber_iOS_6_1
 
 @interface DetailViewController : UIViewController
 
-@property (strong, nonatomic) id detailItem;
-@property (weak, nonatomic) IBOutlet UILabel *detailDescriptionLabel;
+@property (strong, nonatomic) Application* detailItem;
+@property (nonatomic, strong) id<TransitionGestureTarget> gestureTarget;
 
 @end
 

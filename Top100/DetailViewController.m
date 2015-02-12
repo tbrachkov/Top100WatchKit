@@ -10,37 +10,75 @@
 
 @interface DetailViewController ()
 
+@property (weak, nonatomic) IBOutlet UIImageView *appImageView;
+@property (weak, nonatomic) IBOutlet UILabel *appTitle;
+@property (weak, nonatomic) IBOutlet UILabel *appArtist;
+@property (weak, nonatomic) IBOutlet UILabel *appCategory;
+@property (weak, nonatomic) IBOutlet UIButton *appPrice;
+@property (weak, nonatomic) IBOutlet UITextView *appDescriptopn;
+@property (weak, nonatomic) IBOutlet UINavigationItem *navigationTitle;
+
+
 @end
 
 @implementation DetailViewController
 
 #pragma mark - Managing the detail item
 
-- (void)setDetailItem:(id)newDetailItem {
-    if (_detailItem != newDetailItem) {
+- (void)setDetailItem:(id)newDetailItem
+{
+    if (_detailItem != newDetailItem)
+    {
         _detailItem = newDetailItem;
             
-        // Update the view.
         [self configureView];
     }
 }
 
-- (void)configureView {
-    // Update the user interface for the detail item.
-    if (self.detailItem) {
-        self.detailDescriptionLabel.text = [[self.detailItem valueForKey:@"timeStamp"] description];
+- (void)configureView
+{
+    if (self.detailItem)
+    {
+        self.appTitle.text = self.detailItem.title;
+        [self.appPrice setTitle:self.detailItem.price forState:UIControlStateNormal];
+        self.appCategory.text = self.detailItem.category;
+        self.appDescriptopn.text= self.detailItem.summary;
+        self.appArtist.text = self.detailItem.artist;
+        
+        dispatch_queue_t downloadQueue = dispatch_queue_create("download image", NULL);
+        dispatch_async(downloadQueue, ^{
+            UIImage *image = [UIImage imageWithData:[NSData dataWithContentsOfURL:[NSURL URLWithString:self.detailItem.image]]];
+            
+            dispatch_async(dispatch_get_main_queue(), ^{
+                self.appImageView.image = image;
+                [self.appImageView setNeedsLayout];
+            });
+        });
     }
 }
 
-- (void)viewDidLoad {
+- (void)viewDidLoad
+{
     [super viewDidLoad];
-    // Do any additional setup after loading the view, typically from a nib.
+    
+    self.navigationTitle.title = self.detailItem.title;
+    
+    if (isIOS7)
+    {
+        UIPinchGestureRecognizer *pinchRecognizer = [[UIPinchGestureRecognizer alloc] initWithTarget:self.gestureTarget action:@selector(handlePinch:)];
+        [self.view addGestureRecognizer:pinchRecognizer];
+        
+        UIScreenEdgePanGestureRecognizer *edgePanRecognizer = [[UIScreenEdgePanGestureRecognizer alloc] initWithTarget:self.gestureTarget action:@selector(handleEdgePan:)];
+        edgePanRecognizer.edges = UIRectEdgeLeft;
+        [self.view addGestureRecognizer:edgePanRecognizer];
+    }
+    
     [self configureView];
 }
 
-- (void)didReceiveMemoryWarning {
+- (void)didReceiveMemoryWarning
+{
     [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
 }
 
 @end
