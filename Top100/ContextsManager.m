@@ -115,7 +115,10 @@ static ContextsManager* sharedUpdateManager = nil;
 - (NSURL *)applicationDocumentsDirectory
 {
     NSFileManager* fileManager = [[NSFileManager alloc] init];
-    return [[fileManager URLsForDirectory:NSDocumentDirectory inDomains:NSUserDomainMask] lastObject];
+    NSURL* storeUrl = [fileManager containerURLForSecurityApplicationGroupIdentifier:@"group.com.mentormate.Top100"];
+    return storeUrl;
+    
+//    return [[fileManager URLsForDirectory:NSDocumentDirectory inDomains:NSUserDomainMask] lastObject];
 }
 
 -(void)didSave:(NSNotification *)notification

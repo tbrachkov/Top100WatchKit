@@ -8,7 +8,8 @@
 
 #import <UIKit/UIKit.h>
 #import "DetailTransition.h"
-#import "Application.h"
+
+@import DataShareKit;
 
 #define isIOS7 floor(NSFoundationVersionNumber) > NSFoundationVersionNumber_iOS_6_1
 

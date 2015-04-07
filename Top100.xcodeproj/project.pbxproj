@@ -12,13 +12,36 @@
 		AD5767FE1A8CF5260023E7D7 /* DetailTransition.m in Sources */ = {isa = PBXBuildFile; fileRef = AD5767FD1A8CF5260023E7D7 /* DetailTransition.m */; };
 		AD5768001A8D11E20023E7D7 /* JSONFromURL.m in Sources */ = {isa = PBXBuildFile; fileRef = AD5767FF1A8D11E20023E7D7 /* JSONFromURL.m */; };
 		AD5768041A8D149A0023E7D7 /* Top100Apps.json in Resources */ = {isa = PBXBuildFile; fileRef = AD5768031A8D149A0023E7D7 /* Top100Apps.json */; };
+		ADA958041ACEFEAA00D9C783 /* AnimationImageInterfaceController.m in Sources */ = {isa = PBXBuildFile; fileRef = ADA958031ACEFEAA00D9C783 /* AnimationImageInterfaceController.m */; };
+		BE7C40AB1AC7ED7F00B7EA81 /* InterfaceController.m in Sources */ = {isa = PBXBuildFile; fileRef = BE7C40AA1AC7ED7F00B7EA81 /* InterfaceController.m */; };
+		BE7C40AE1AC7ED7F00B7EA81 /* NotificationController.m in Sources */ = {isa = PBXBuildFile; fileRef = BE7C40AD1AC7ED7F00B7EA81 /* NotificationController.m */; };
+		BE7C40B11AC7ED7F00B7EA81 /* GlanceController.m in Sources */ = {isa = PBXBuildFile; fileRef = BE7C40B01AC7ED7F00B7EA81 /* GlanceController.m */; };
+		BE7C40B31AC7ED7F00B7EA81 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BE7C40B21AC7ED7F00B7EA81 /* Images.xcassets */; };
+		BE7C40B71AC7ED8000B7EA81 /* Top100 WatchKit App.app in Resources */ = {isa = PBXBuildFile; fileRef = BE7C40B61AC7ED8000B7EA81 /* Top100 WatchKit App.app */; };
+		BE7C40BF1AC7ED8000B7EA81 /* Interface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BE7C40BD1AC7ED8000B7EA81 /* Interface.storyboard */; };
+		BE7C40C11AC7ED8000B7EA81 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BE7C40C01AC7ED8000B7EA81 /* Images.xcassets */; };
+		BE7C40C41AC7ED8000B7EA81 /* Top100 WatchKit Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = BE7C40A41AC7ED7F00B7EA81 /* Top100 WatchKit Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		BE7C40CE1AC7EDFD00B7EA81 /* ApplicationRowController.m in Sources */ = {isa = PBXBuildFile; fileRef = BE7C40CD1AC7EDFD00B7EA81 /* ApplicationRowController.m */; };
+		BE7C40D91AC805CE00B7EA81 /* DataShareKit.h in Headers */ = {isa = PBXBuildFile; fileRef = BE7C40D81AC805CE00B7EA81 /* DataShareKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BE7C40DF1AC805CE00B7EA81 /* DataShareKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BE7C40D41AC805CE00B7EA81 /* DataShareKit.framework */; };
+		BE7C40E81AC805CE00B7EA81 /* DataShareKitTests.m in Sources */ = {isa = PBXBuildFile; fileRef = BE7C40E71AC805CE00B7EA81 /* DataShareKitTests.m */; };
+		BE7C40EB1AC805CE00B7EA81 /* DataShareKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BE7C40D41AC805CE00B7EA81 /* DataShareKit.framework */; };
+		BE7C40EC1AC805CE00B7EA81 /* DataShareKit.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = BE7C40D41AC805CE00B7EA81 /* DataShareKit.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		BE7C40F61AC8067300B7EA81 /* DetailInterfaceController.m in Sources */ = {isa = PBXBuildFile; fileRef = BE7C40F51AC8067300B7EA81 /* DetailInterfaceController.m */; };
 		BE90A61C1A8D2E47001F4988 /* CustomGradientNavigationBar.m in Sources */ = {isa = PBXBuildFile; fileRef = BE90A61B1A8D2E47001F4988 /* CustomGradientNavigationBar.m */; };
 		BE90A61F1A8D44EC001F4988 /* AppTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = BE90A61E1A8D44EC001F4988 /* AppTableViewCell.m */; };
-		BE90A6221A8D4663001F4988 /* Constants.m in Sources */ = {isa = PBXBuildFile; fileRef = BE90A6211A8D4663001F4988 /* Constants.m */; };
-		BE9D818E1A8C910D009D8C80 /* ContextsManager.m in Sources */ = {isa = PBXBuildFile; fileRef = BE9D818D1A8C910D009D8C80 /* ContextsManager.m */; };
-		BEB4DC2E1A8B3CF800D047B9 /* Application.m in Sources */ = {isa = PBXBuildFile; fileRef = BEB4DC2D1A8B3CF800D047B9 /* Application.m */; };
-		BEB4DC341A8B3DF800D047B9 /* Application+Create.m in Sources */ = {isa = PBXBuildFile; fileRef = BEB4DC331A8B3DF800D047B9 /* Application+Create.m */; };
-		BEB4DC371A8B3E0800D047B9 /* Application+Delete.m in Sources */ = {isa = PBXBuildFile; fileRef = BEB4DC361A8B3E0800D047B9 /* Application+Delete.m */; };
+		BEA6634F1AC9E31E0021AC9F /* ContextsManager.m in Sources */ = {isa = PBXBuildFile; fileRef = BE9D818D1A8C910D009D8C80 /* ContextsManager.m */; };
+		BEA663501AC9E5060021AC9F /* Top100.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = BEDB6C431A8A9B4300FB73BE /* Top100.xcdatamodeld */; };
+		BEA663551AC9F0880021AC9F /* DataShareKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BE7C40D41AC805CE00B7EA81 /* DataShareKit.framework */; };
+		BEA663561AC9F0D00021AC9F /* ContextsManager.h in Headers */ = {isa = PBXBuildFile; fileRef = BE9D818C1A8C910D009D8C80 /* ContextsManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BEA663571AC9F1840021AC9F /* Constants.h in Headers */ = {isa = PBXBuildFile; fileRef = BE90A6201A8D4663001F4988 /* Constants.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BEA663581AC9F1880021AC9F /* Constants.m in Sources */ = {isa = PBXBuildFile; fileRef = BE90A6211A8D4663001F4988 /* Constants.m */; };
+		BEA663591AC9F18D0021AC9F /* Application.h in Headers */ = {isa = PBXBuildFile; fileRef = BEB4DC2C1A8B3CF800D047B9 /* Application.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BEA6635A1AC9F1920021AC9F /* Application.m in Sources */ = {isa = PBXBuildFile; fileRef = BEB4DC2D1A8B3CF800D047B9 /* Application.m */; };
+		BEA6635B1AC9F19C0021AC9F /* Application+Create.h in Headers */ = {isa = PBXBuildFile; fileRef = BEB4DC321A8B3DF800D047B9 /* Application+Create.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BEA6635C1AC9F1A00021AC9F /* Application+Create.m in Sources */ = {isa = PBXBuildFile; fileRef = BEB4DC331A8B3DF800D047B9 /* Application+Create.m */; };
+		BEA6635D1AC9F1A50021AC9F /* Application+Delete.h in Headers */ = {isa = PBXBuildFile; fileRef = BEB4DC351A8B3E0800D047B9 /* Application+Delete.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BEA6635E1AC9F1A90021AC9F /* Application+Delete.m in Sources */ = {isa = PBXBuildFile; fileRef = BEB4DC361A8B3E0800D047B9 /* Application+Delete.m */; };
 		BEDB6C3F1A8A9B4300FB73BE /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BEDB6C3E1A8A9B4300FB73BE /* main.m */; };
 		BEDB6C421A8A9B4300FB73BE /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BEDB6C411A8A9B4300FB73BE /* AppDelegate.m */; };
 		BEDB6C451A8A9B4300FB73BE /* Top100.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = BEDB6C431A8A9B4300FB73BE /* Top100.xcdatamodeld */; };
@@ -31,6 +54,41 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
+		BE7C40B81AC7ED8000B7EA81 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BEDB6C311A8A9B4300FB73BE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BE7C40B51AC7ED8000B7EA81;
+			remoteInfo = "Top100 WatchKit App";
+		};
+		BE7C40C21AC7ED8000B7EA81 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BEDB6C311A8A9B4300FB73BE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BE7C40A31AC7ED7F00B7EA81;
+			remoteInfo = "Top100 WatchKit Extension";
+		};
+		BE7C40E01AC805CE00B7EA81 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BEDB6C311A8A9B4300FB73BE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BE7C40D31AC805CE00B7EA81;
+			remoteInfo = DataShareKit;
+		};
+		BE7C40E21AC805CE00B7EA81 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BEDB6C311A8A9B4300FB73BE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BEDB6C381A8A9B4300FB73BE;
+			remoteInfo = Top100;
+		};
+		BE7C40E91AC805CE00B7EA81 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BEDB6C311A8A9B4300FB73BE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BE7C40D31AC805CE00B7EA81;
+			remoteInfo = DataShareKit;
+		};
 		BEDB6C591A8A9B4400FB73BE /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BEDB6C311A8A9B4300FB73BE /* Project object */;
@@ -39,6 +97,31 @@
 			remoteInfo = Top100;
 		};
 /* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		BE7C40CB1AC7ED8000B7EA81 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				BE7C40C41AC7ED8000B7EA81 /* Top100 WatchKit Extension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BE7C40F01AC805CE00B7EA81 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				BE7C40EC1AC805CE00B7EA81 /* DataShareKit.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		AD5767F31A8CCECB0023E7D7 /* FetchResultsTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FetchResultsTableViewController.h; sourceTree = "<group>"; };
@@ -50,20 +133,48 @@
 		AD5768011A8D12050023E7D7 /* JSONFromURL.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JSONFromURL.h; sourceTree = "<group>"; };
 		AD5768021A8D136B0023E7D7 /* ContextsManagerTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ContextsManagerTests.h; sourceTree = "<group>"; };
 		AD5768031A8D149A0023E7D7 /* Top100Apps.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Top100Apps.json; sourceTree = "<group>"; };
+		ADA958021ACEFEAA00D9C783 /* AnimationImageInterfaceController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AnimationImageInterfaceController.h; sourceTree = "<group>"; };
+		ADA958031ACEFEAA00D9C783 /* AnimationImageInterfaceController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AnimationImageInterfaceController.m; sourceTree = "<group>"; };
+		BE7C40A41AC7ED7F00B7EA81 /* Top100 WatchKit Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "Top100 WatchKit Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BE7C40A71AC7ED7F00B7EA81 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BE7C40A81AC7ED7F00B7EA81 /* PushNotificationPayload.apns */ = {isa = PBXFileReference; lastKnownFileType = text; path = PushNotificationPayload.apns; sourceTree = "<group>"; };
+		BE7C40A91AC7ED7F00B7EA81 /* InterfaceController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = InterfaceController.h; sourceTree = "<group>"; };
+		BE7C40AA1AC7ED7F00B7EA81 /* InterfaceController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = InterfaceController.m; sourceTree = "<group>"; };
+		BE7C40AC1AC7ED7F00B7EA81 /* NotificationController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NotificationController.h; sourceTree = "<group>"; };
+		BE7C40AD1AC7ED7F00B7EA81 /* NotificationController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NotificationController.m; sourceTree = "<group>"; };
+		BE7C40AF1AC7ED7F00B7EA81 /* GlanceController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GlanceController.h; sourceTree = "<group>"; };
+		BE7C40B01AC7ED7F00B7EA81 /* GlanceController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GlanceController.m; sourceTree = "<group>"; };
+		BE7C40B21AC7ED7F00B7EA81 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		BE7C40B61AC7ED8000B7EA81 /* Top100 WatchKit App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Top100 WatchKit App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BE7C40BC1AC7ED8000B7EA81 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BE7C40BE1AC7ED8000B7EA81 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Interface.storyboard; sourceTree = "<group>"; };
+		BE7C40C01AC7ED8000B7EA81 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		BE7C40CC1AC7EDFD00B7EA81 /* ApplicationRowController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ApplicationRowController.h; sourceTree = "<group>"; };
+		BE7C40CD1AC7EDFD00B7EA81 /* ApplicationRowController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ApplicationRowController.m; sourceTree = "<group>"; };
+		BE7C40D41AC805CE00B7EA81 /* DataShareKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = DataShareKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BE7C40D71AC805CE00B7EA81 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BE7C40D81AC805CE00B7EA81 /* DataShareKit.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DataShareKit.h; sourceTree = "<group>"; };
+		BE7C40DE1AC805CE00B7EA81 /* DataShareKitTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DataShareKitTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BE7C40E61AC805CE00B7EA81 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BE7C40E71AC805CE00B7EA81 /* DataShareKitTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DataShareKitTests.m; sourceTree = "<group>"; };
+		BE7C40F41AC8067300B7EA81 /* DetailInterfaceController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DetailInterfaceController.h; sourceTree = "<group>"; };
+		BE7C40F51AC8067300B7EA81 /* DetailInterfaceController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DetailInterfaceController.m; sourceTree = "<group>"; };
+		BE7C40F71AC821B900B7EA81 /* Top100.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = Top100.entitlements; sourceTree = "<group>"; };
+		BE7C40F81AC821C400B7EA81 /* Top100 WatchKit Extension.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = "Top100 WatchKit Extension.entitlements"; sourceTree = "<group>"; };
 		BE90A61A1A8D2E47001F4988 /* CustomGradientNavigationBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomGradientNavigationBar.h; sourceTree = "<group>"; };
 		BE90A61B1A8D2E47001F4988 /* CustomGradientNavigationBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomGradientNavigationBar.m; sourceTree = "<group>"; };
 		BE90A61D1A8D44EC001F4988 /* AppTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppTableViewCell.h; sourceTree = "<group>"; };
 		BE90A61E1A8D44EC001F4988 /* AppTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppTableViewCell.m; sourceTree = "<group>"; };
-		BE90A6201A8D4663001F4988 /* Constants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Constants.h; sourceTree = "<group>"; };
-		BE90A6211A8D4663001F4988 /* Constants.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Constants.m; sourceTree = "<group>"; };
-		BE9D818C1A8C910D009D8C80 /* ContextsManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ContextsManager.h; sourceTree = "<group>"; };
-		BE9D818D1A8C910D009D8C80 /* ContextsManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ContextsManager.m; sourceTree = "<group>"; };
-		BEB4DC2C1A8B3CF800D047B9 /* Application.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Application.h; sourceTree = "<group>"; };
-		BEB4DC2D1A8B3CF800D047B9 /* Application.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Application.m; sourceTree = "<group>"; };
-		BEB4DC321A8B3DF800D047B9 /* Application+Create.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Application+Create.h"; sourceTree = "<group>"; };
-		BEB4DC331A8B3DF800D047B9 /* Application+Create.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "Application+Create.m"; sourceTree = "<group>"; };
-		BEB4DC351A8B3E0800D047B9 /* Application+Delete.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Application+Delete.h"; sourceTree = "<group>"; };
-		BEB4DC361A8B3E0800D047B9 /* Application+Delete.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "Application+Delete.m"; sourceTree = "<group>"; };
+		BE90A6201A8D4663001F4988 /* Constants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Constants.h; path = ../Top100/Constants.h; sourceTree = "<group>"; };
+		BE90A6211A8D4663001F4988 /* Constants.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Constants.m; path = ../Top100/Constants.m; sourceTree = "<group>"; };
+		BE9D818C1A8C910D009D8C80 /* ContextsManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ContextsManager.h; path = ../Top100/ContextsManager.h; sourceTree = "<group>"; };
+		BE9D818D1A8C910D009D8C80 /* ContextsManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ContextsManager.m; path = ../Top100/ContextsManager.m; sourceTree = "<group>"; };
+		BEB4DC2C1A8B3CF800D047B9 /* Application.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Application.h; path = ../Top100/Application.h; sourceTree = "<group>"; };
+		BEB4DC2D1A8B3CF800D047B9 /* Application.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Application.m; path = ../Top100/Application.m; sourceTree = "<group>"; };
+		BEB4DC321A8B3DF800D047B9 /* Application+Create.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "Application+Create.h"; path = "../Top100/Application+Create.h"; sourceTree = "<group>"; };
+		BEB4DC331A8B3DF800D047B9 /* Application+Create.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "Application+Create.m"; path = "../Top100/Application+Create.m"; sourceTree = "<group>"; };
+		BEB4DC351A8B3E0800D047B9 /* Application+Delete.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "Application+Delete.h"; path = "../Top100/Application+Delete.h"; sourceTree = "<group>"; };
+		BEB4DC361A8B3E0800D047B9 /* Application+Delete.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "Application+Delete.m"; path = "../Top100/Application+Delete.m"; sourceTree = "<group>"; };
 		BEDB6C391A8A9B4300FB73BE /* Top100.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Top100.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BEDB6C3D1A8A9B4300FB73BE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		BEDB6C3E1A8A9B4300FB73BE /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -83,10 +194,34 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		BE7C40A11AC7ED7F00B7EA81 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BEA663551AC9F0880021AC9F /* DataShareKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BE7C40D01AC805CE00B7EA81 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BE7C40DB1AC805CE00B7EA81 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BE7C40DF1AC805CE00B7EA81 /* DataShareKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		BEDB6C361A8A9B4300FB73BE /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BE7C40EB1AC805CE00B7EA81 /* DataShareKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -100,11 +235,108 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		BE7C40A51AC7ED7F00B7EA81 /* Top100 WatchKit Extension */ = {
+			isa = PBXGroup;
+			children = (
+				BE7C40F81AC821C400B7EA81 /* Top100 WatchKit Extension.entitlements */,
+				BE7C40A91AC7ED7F00B7EA81 /* InterfaceController.h */,
+				BE7C40AA1AC7ED7F00B7EA81 /* InterfaceController.m */,
+				BE7C40F41AC8067300B7EA81 /* DetailInterfaceController.h */,
+				BE7C40F51AC8067300B7EA81 /* DetailInterfaceController.m */,
+				ADA958021ACEFEAA00D9C783 /* AnimationImageInterfaceController.h */,
+				ADA958031ACEFEAA00D9C783 /* AnimationImageInterfaceController.m */,
+				BE7C40CC1AC7EDFD00B7EA81 /* ApplicationRowController.h */,
+				BE7C40CD1AC7EDFD00B7EA81 /* ApplicationRowController.m */,
+				BE7C40AC1AC7ED7F00B7EA81 /* NotificationController.h */,
+				BE7C40AD1AC7ED7F00B7EA81 /* NotificationController.m */,
+				BE7C40AF1AC7ED7F00B7EA81 /* GlanceController.h */,
+				BE7C40B01AC7ED7F00B7EA81 /* GlanceController.m */,
+				BE7C40B21AC7ED7F00B7EA81 /* Images.xcassets */,
+				BE7C40A61AC7ED7F00B7EA81 /* Supporting Files */,
+			);
+			path = "Top100 WatchKit Extension";
+			sourceTree = "<group>";
+		};
+		BE7C40A61AC7ED7F00B7EA81 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				BE7C40A71AC7ED7F00B7EA81 /* Info.plist */,
+				BE7C40A81AC7ED7F00B7EA81 /* PushNotificationPayload.apns */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		BE7C40BA1AC7ED8000B7EA81 /* Top100 WatchKit App */ = {
+			isa = PBXGroup;
+			children = (
+				BE7C40BD1AC7ED8000B7EA81 /* Interface.storyboard */,
+				BE7C40C01AC7ED8000B7EA81 /* Images.xcassets */,
+				BE7C40BB1AC7ED8000B7EA81 /* Supporting Files */,
+			);
+			path = "Top100 WatchKit App";
+			sourceTree = "<group>";
+		};
+		BE7C40BB1AC7ED8000B7EA81 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				BE7C40BC1AC7ED8000B7EA81 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		BE7C40D51AC805CE00B7EA81 /* DataShareKit */ = {
+			isa = PBXGroup;
+			children = (
+				BE7C40D81AC805CE00B7EA81 /* DataShareKit.h */,
+				BE9D818C1A8C910D009D8C80 /* ContextsManager.h */,
+				BE9D818D1A8C910D009D8C80 /* ContextsManager.m */,
+				BE90A6201A8D4663001F4988 /* Constants.h */,
+				BE90A6211A8D4663001F4988 /* Constants.m */,
+				BEB4DC2C1A8B3CF800D047B9 /* Application.h */,
+				BEB4DC2D1A8B3CF800D047B9 /* Application.m */,
+				BEB4DC321A8B3DF800D047B9 /* Application+Create.h */,
+				BEB4DC331A8B3DF800D047B9 /* Application+Create.m */,
+				BEB4DC351A8B3E0800D047B9 /* Application+Delete.h */,
+				BEB4DC361A8B3E0800D047B9 /* Application+Delete.m */,
+				BE7C40D61AC805CE00B7EA81 /* Supporting Files */,
+			);
+			path = DataShareKit;
+			sourceTree = "<group>";
+		};
+		BE7C40D61AC805CE00B7EA81 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				BE7C40D71AC805CE00B7EA81 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		BE7C40E41AC805CE00B7EA81 /* DataShareKitTests */ = {
+			isa = PBXGroup;
+			children = (
+				BE7C40E71AC805CE00B7EA81 /* DataShareKitTests.m */,
+				BE7C40E51AC805CE00B7EA81 /* Supporting Files */,
+			);
+			path = DataShareKitTests;
+			sourceTree = "<group>";
+		};
+		BE7C40E51AC805CE00B7EA81 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				BE7C40E61AC805CE00B7EA81 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
 		BEDB6C301A8A9B4300FB73BE = {
 			isa = PBXGroup;
 			children = (
 				BEDB6C3B1A8A9B4300FB73BE /* Top100 */,
 				BEDB6C5B1A8A9B4400FB73BE /* Top100Tests */,
+				BE7C40A51AC7ED7F00B7EA81 /* Top100 WatchKit Extension */,
+				BE7C40BA1AC7ED8000B7EA81 /* Top100 WatchKit App */,
+				BE7C40D51AC805CE00B7EA81 /* DataShareKit */,
+				BE7C40E41AC805CE00B7EA81 /* DataShareKitTests */,
 				BEDB6C3A1A8A9B4300FB73BE /* Products */,
 			);
 			sourceTree = "<group>";
@@ -114,6 +346,10 @@
 			children = (
 				BEDB6C391A8A9B4300FB73BE /* Top100.app */,
 				BEDB6C581A8A9B4400FB73BE /* Top100Tests.xctest */,
+				BE7C40A41AC7ED7F00B7EA81 /* Top100 WatchKit Extension.appex */,
+				BE7C40B61AC7ED8000B7EA81 /* Top100 WatchKit App.app */,
+				BE7C40D41AC805CE00B7EA81 /* DataShareKit.framework */,
+				BE7C40DE1AC805CE00B7EA81 /* DataShareKitTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -121,6 +357,7 @@
 		BEDB6C3B1A8A9B4300FB73BE /* Top100 */ = {
 			isa = PBXGroup;
 			children = (
+				BE7C40F71AC821B900B7EA81 /* Top100.entitlements */,
 				BEDB6C401A8A9B4300FB73BE /* AppDelegate.h */,
 				BEDB6C411A8A9B4300FB73BE /* AppDelegate.m */,
 				BEDB6C6A1A8AA06A00FB73BE /* Model */,
@@ -195,23 +432,99 @@
 			isa = PBXGroup;
 			children = (
 				BEDB6C431A8A9B4300FB73BE /* Top100.xcdatamodeld */,
-				BE90A6201A8D4663001F4988 /* Constants.h */,
-				BE90A6211A8D4663001F4988 /* Constants.m */,
-				BEB4DC2C1A8B3CF800D047B9 /* Application.h */,
-				BEB4DC2D1A8B3CF800D047B9 /* Application.m */,
-				BEB4DC321A8B3DF800D047B9 /* Application+Create.h */,
-				BEB4DC331A8B3DF800D047B9 /* Application+Create.m */,
-				BEB4DC351A8B3E0800D047B9 /* Application+Delete.h */,
-				BEB4DC361A8B3E0800D047B9 /* Application+Delete.m */,
-				BE9D818C1A8C910D009D8C80 /* ContextsManager.h */,
-				BE9D818D1A8C910D009D8C80 /* ContextsManager.m */,
 			);
 			name = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
+/* Begin PBXHeadersBuildPhase section */
+		BE7C40D11AC805CE00B7EA81 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BEA6635B1AC9F19C0021AC9F /* Application+Create.h in Headers */,
+				BEA663561AC9F0D00021AC9F /* ContextsManager.h in Headers */,
+				BEA6635D1AC9F1A50021AC9F /* Application+Delete.h in Headers */,
+				BE7C40D91AC805CE00B7EA81 /* DataShareKit.h in Headers */,
+				BEA663571AC9F1840021AC9F /* Constants.h in Headers */,
+				BEA663591AC9F18D0021AC9F /* Application.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
 /* Begin PBXNativeTarget section */
+		BE7C40A31AC7ED7F00B7EA81 /* Top100 WatchKit Extension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BE7C40C81AC7ED8000B7EA81 /* Build configuration list for PBXNativeTarget "Top100 WatchKit Extension" */;
+			buildPhases = (
+				BE7C40A01AC7ED7F00B7EA81 /* Sources */,
+				BE7C40A11AC7ED7F00B7EA81 /* Frameworks */,
+				BE7C40A21AC7ED7F00B7EA81 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BE7C40B91AC7ED8000B7EA81 /* PBXTargetDependency */,
+			);
+			name = "Top100 WatchKit Extension";
+			productName = "Top100 WatchKit Extension";
+			productReference = BE7C40A41AC7ED7F00B7EA81 /* Top100 WatchKit Extension.appex */;
+			productType = "com.apple.product-type.watchkit-extension";
+		};
+		BE7C40B51AC7ED8000B7EA81 /* Top100 WatchKit App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BE7C40C51AC7ED8000B7EA81 /* Build configuration list for PBXNativeTarget "Top100 WatchKit App" */;
+			buildPhases = (
+				BE7C40B41AC7ED8000B7EA81 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Top100 WatchKit App";
+			productName = "Top100 WatchKit App";
+			productReference = BE7C40B61AC7ED8000B7EA81 /* Top100 WatchKit App.app */;
+			productType = "com.apple.product-type.application.watchapp";
+		};
+		BE7C40D31AC805CE00B7EA81 /* DataShareKit */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BE7C40ED1AC805CE00B7EA81 /* Build configuration list for PBXNativeTarget "DataShareKit" */;
+			buildPhases = (
+				BE7C40CF1AC805CE00B7EA81 /* Sources */,
+				BE7C40D01AC805CE00B7EA81 /* Frameworks */,
+				BE7C40D11AC805CE00B7EA81 /* Headers */,
+				BE7C40D21AC805CE00B7EA81 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DataShareKit;
+			productName = DataShareKit;
+			productReference = BE7C40D41AC805CE00B7EA81 /* DataShareKit.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		BE7C40DD1AC805CE00B7EA81 /* DataShareKitTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BE7C40F11AC805CE00B7EA81 /* Build configuration list for PBXNativeTarget "DataShareKitTests" */;
+			buildPhases = (
+				BE7C40DA1AC805CE00B7EA81 /* Sources */,
+				BE7C40DB1AC805CE00B7EA81 /* Frameworks */,
+				BE7C40DC1AC805CE00B7EA81 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BE7C40E11AC805CE00B7EA81 /* PBXTargetDependency */,
+				BE7C40E31AC805CE00B7EA81 /* PBXTargetDependency */,
+			);
+			name = DataShareKitTests;
+			productName = DataShareKitTests;
+			productReference = BE7C40DE1AC805CE00B7EA81 /* DataShareKitTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 		BEDB6C381A8A9B4300FB73BE /* Top100 */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = BEDB6C621A8A9B4400FB73BE /* Build configuration list for PBXNativeTarget "Top100" */;
@@ -219,10 +532,14 @@
 				BEDB6C351A8A9B4300FB73BE /* Sources */,
 				BEDB6C361A8A9B4300FB73BE /* Frameworks */,
 				BEDB6C371A8A9B4300FB73BE /* Resources */,
+				BE7C40CB1AC7ED8000B7EA81 /* Embed App Extensions */,
+				BE7C40F01AC805CE00B7EA81 /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				BE7C40C31AC7ED8000B7EA81 /* PBXTargetDependency */,
+				BE7C40EA1AC805CE00B7EA81 /* PBXTargetDependency */,
 			);
 			name = Top100;
 			productName = Top100;
@@ -256,8 +573,35 @@
 				LastUpgradeCheck = 0610;
 				ORGANIZATIONNAME = "Todor Brachkov";
 				TargetAttributes = {
+					BE7C40A31AC7ED7F00B7EA81 = {
+						CreatedOnToolsVersion = 6.2;
+						DevelopmentTeam = M352RPT82H;
+						SystemCapabilities = {
+							com.apple.ApplicationGroups.iOS = {
+								enabled = 1;
+							};
+						};
+					};
+					BE7C40B51AC7ED8000B7EA81 = {
+						CreatedOnToolsVersion = 6.2;
+						DevelopmentTeam = M352RPT82H;
+					};
+					BE7C40D31AC805CE00B7EA81 = {
+						CreatedOnToolsVersion = 6.2;
+						DevelopmentTeam = M352RPT82H;
+					};
+					BE7C40DD1AC805CE00B7EA81 = {
+						CreatedOnToolsVersion = 6.2;
+						TestTargetID = BEDB6C381A8A9B4300FB73BE;
+					};
 					BEDB6C381A8A9B4300FB73BE = {
 						CreatedOnToolsVersion = 6.1.1;
+						DevelopmentTeam = M352RPT82H;
+						SystemCapabilities = {
+							com.apple.ApplicationGroups.iOS = {
+								enabled = 1;
+							};
+						};
 					};
 					BEDB6C571A8A9B4400FB73BE = {
 						CreatedOnToolsVersion = 6.1.1;
@@ -280,11 +624,47 @@
 			targets = (
 				BEDB6C381A8A9B4300FB73BE /* Top100 */,
 				BEDB6C571A8A9B4400FB73BE /* Top100Tests */,
+				BE7C40A31AC7ED7F00B7EA81 /* Top100 WatchKit Extension */,
+				BE7C40B51AC7ED8000B7EA81 /* Top100 WatchKit App */,
+				BE7C40D31AC805CE00B7EA81 /* DataShareKit */,
+				BE7C40DD1AC805CE00B7EA81 /* DataShareKitTests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		BE7C40A21AC7ED7F00B7EA81 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BE7C40B71AC7ED8000B7EA81 /* Top100 WatchKit App.app in Resources */,
+				BE7C40B31AC7ED7F00B7EA81 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BE7C40B41AC7ED8000B7EA81 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BE7C40BF1AC7ED8000B7EA81 /* Interface.storyboard in Resources */,
+				BE7C40C11AC7ED8000B7EA81 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BE7C40D21AC805CE00B7EA81 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BE7C40DC1AC805CE00B7EA81 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		BEDB6C371A8A9B4300FB73BE /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -306,17 +686,46 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		BE7C40A01AC7ED7F00B7EA81 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BE7C40AE1AC7ED7F00B7EA81 /* NotificationController.m in Sources */,
+				BE7C40CE1AC7EDFD00B7EA81 /* ApplicationRowController.m in Sources */,
+				ADA958041ACEFEAA00D9C783 /* AnimationImageInterfaceController.m in Sources */,
+				BE7C40F61AC8067300B7EA81 /* DetailInterfaceController.m in Sources */,
+				BE7C40AB1AC7ED7F00B7EA81 /* InterfaceController.m in Sources */,
+				BE7C40B11AC7ED7F00B7EA81 /* GlanceController.m in Sources */,
+				BEA663501AC9E5060021AC9F /* Top100.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BE7C40CF1AC805CE00B7EA81 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BEA6635A1AC9F1920021AC9F /* Application.m in Sources */,
+				BEA6634F1AC9E31E0021AC9F /* ContextsManager.m in Sources */,
+				BEA6635C1AC9F1A00021AC9F /* Application+Create.m in Sources */,
+				BEA6635E1AC9F1A90021AC9F /* Application+Delete.m in Sources */,
+				BEA663581AC9F1880021AC9F /* Constants.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BE7C40DA1AC805CE00B7EA81 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BE7C40E81AC805CE00B7EA81 /* DataShareKitTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		BEDB6C351A8A9B4300FB73BE /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BE9D818E1A8C910D009D8C80 /* ContextsManager.m in Sources */,
 				BE90A61F1A8D44EC001F4988 /* AppTableViewCell.m in Sources */,
 				BEDB6C4B1A8A9B4300FB73BE /* DetailViewController.m in Sources */,
-				BEB4DC341A8B3DF800D047B9 /* Application+Create.m in Sources */,
-				BEB4DC371A8B3E0800D047B9 /* Application+Delete.m in Sources */,
-				BE90A6221A8D4663001F4988 /* Constants.m in Sources */,
-				BEB4DC2E1A8B3CF800D047B9 /* Application.m in Sources */,
 				AD5767F51A8CCECB0023E7D7 /* FetchResultsTableViewController.m in Sources */,
 				BEDB6C481A8A9B4300FB73BE /* MasterViewController.m in Sources */,
 				BEDB6C421A8A9B4300FB73BE /* AppDelegate.m in Sources */,
@@ -340,6 +749,31 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
+		BE7C40B91AC7ED8000B7EA81 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BE7C40B51AC7ED8000B7EA81 /* Top100 WatchKit App */;
+			targetProxy = BE7C40B81AC7ED8000B7EA81 /* PBXContainerItemProxy */;
+		};
+		BE7C40C31AC7ED8000B7EA81 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BE7C40A31AC7ED7F00B7EA81 /* Top100 WatchKit Extension */;
+			targetProxy = BE7C40C21AC7ED8000B7EA81 /* PBXContainerItemProxy */;
+		};
+		BE7C40E11AC805CE00B7EA81 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BE7C40D31AC805CE00B7EA81 /* DataShareKit */;
+			targetProxy = BE7C40E01AC805CE00B7EA81 /* PBXContainerItemProxy */;
+		};
+		BE7C40E31AC805CE00B7EA81 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BEDB6C381A8A9B4300FB73BE /* Top100 */;
+			targetProxy = BE7C40E21AC805CE00B7EA81 /* PBXContainerItemProxy */;
+		};
+		BE7C40EA1AC805CE00B7EA81 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BE7C40D31AC805CE00B7EA81 /* DataShareKit */;
+			targetProxy = BE7C40E91AC805CE00B7EA81 /* PBXContainerItemProxy */;
+		};
 		BEDB6C5A1A8A9B4400FB73BE /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = BEDB6C381A8A9B4300FB73BE /* Top100 */;
@@ -348,6 +782,14 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
+		BE7C40BD1AC7ED8000B7EA81 /* Interface.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BE7C40BE1AC7ED8000B7EA81 /* Base */,
+			);
+			name = Interface.storyboard;
+			sourceTree = "<group>";
+		};
 		BEDB6C4C1A8A9B4300FB73BE /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -367,6 +809,158 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
+		BE7C40C61AC7ED8000B7EA81 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				IBSC_MODULE = Top100_WatchKit_Extension;
+				INFOPLIST_FILE = "Top100 WatchKit App/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				"TARGETED_DEVICE_FAMILY[sdk=iphonesimulator*]" = "1,4";
+			};
+			name = Debug;
+		};
+		BE7C40C71AC7ED8000B7EA81 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				IBSC_MODULE = Top100_WatchKit_Extension;
+				INFOPLIST_FILE = "Top100 WatchKit App/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				"TARGETED_DEVICE_FAMILY[sdk=iphonesimulator*]" = "1,4";
+			};
+			name = Release;
+		};
+		BE7C40C91AC7ED8000B7EA81 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = "Top100 WatchKit Extension/Top100 WatchKit Extension.entitlements";
+				CODE_SIGN_IDENTITY = "iPhone Developer: Todor Brachkov (72MZ986QHL)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Top100 WatchKit Extension/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_NAME = "${TARGET_NAME}";
+				PROVISIONING_PROFILE = "";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		BE7C40CA1AC7ED8000B7EA81 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = "Top100 WatchKit Extension/Top100 WatchKit Extension.entitlements";
+				CODE_SIGN_IDENTITY = "iPhone Developer: Todor Brachkov (72MZ986QHL)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				INFOPLIST_FILE = "Top100 WatchKit Extension/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_NAME = "${TARGET_NAME}";
+				PROVISIONING_PROFILE = "";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		BE7C40EE1AC805CE00B7EA81 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = DataShareKit/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		BE7C40EF1AC805CE00B7EA81 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = DataShareKit/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		BE7C40F21AC805CE00B7EA81 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = DataShareKitTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Top100.app/Top100";
+			};
+			name = Debug;
+		};
+		BE7C40F31AC805CE00B7EA81 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = DataShareKitTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Top100.app/Top100";
+			};
+			name = Release;
+		};
 		BEDB6C601A8A9B4400FB73BE /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -447,14 +1041,18 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = Top100/Top100.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Developer: Todor Brachkov (72MZ986QHL)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(DEVELOPER_FRAMEWORKS_DIR)",
 				);
 				INFOPLIST_FILE = Top100/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 				VALID_ARCHS = "armv7 armv7s arm64";
 			};
 			name = Debug;
@@ -463,14 +1061,18 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = Top100/Top100.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Developer: Todor Brachkov (72MZ986QHL)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(DEVELOPER_FRAMEWORKS_DIR)",
 				);
 				INFOPLIST_FILE = Top100/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 				VALID_ARCHS = "armv7 armv7s arm64";
 			};
 			name = Release;
@@ -512,6 +1114,42 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		BE7C40C51AC7ED8000B7EA81 /* Build configuration list for PBXNativeTarget "Top100 WatchKit App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BE7C40C61AC7ED8000B7EA81 /* Debug */,
+				BE7C40C71AC7ED8000B7EA81 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BE7C40C81AC7ED8000B7EA81 /* Build configuration list for PBXNativeTarget "Top100 WatchKit Extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BE7C40C91AC7ED8000B7EA81 /* Debug */,
+				BE7C40CA1AC7ED8000B7EA81 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BE7C40ED1AC805CE00B7EA81 /* Build configuration list for PBXNativeTarget "DataShareKit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BE7C40EE1AC805CE00B7EA81 /* Debug */,
+				BE7C40EF1AC805CE00B7EA81 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BE7C40F11AC805CE00B7EA81 /* Build configuration list for PBXNativeTarget "DataShareKitTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BE7C40F21AC805CE00B7EA81 /* Debug */,
+				BE7C40F31AC805CE00B7EA81 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		BEDB6C341A8A9B4300FB73BE /* Build configuration list for PBXProject "Top100" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (

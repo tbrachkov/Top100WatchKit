@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder.WatchKit.Storyboard" version="3.0" toolsVersion="6751" systemVersion="14C1510" targetRuntime="watchKit" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="AgC-eL-Hgc">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6736"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBWatchKitPlugin" version="3737"/>
+    </dependencies>
+    <scenes>
+        <!--Interface Controller-->
+        <scene sceneID="aou-V4-d1y">
+            <objects>
+                <controller id="AgC-eL-Hgc" customClass="InterfaceController">
+                    <items>
+                        <table alignment="left" id="ylR-7H-c8M">
+                            <items>
+                                <tableRow identifier="ApplicationCell" id="5cK-MN-VQf" customClass="ApplicationRowController">
+                                    <group key="rootItem" width="1" height="100" alignment="left" id="Dv2-My-MQD">
+                                        <items>
+                                            <group width="132" height="101" alignment="left" layout="vertical" spacing="0.0" id="vPf-3X-8WE">
+                                                <items>
+                                                    <label width="1" height="44" alignment="center" text="Name" textAlignment="center" numberOfLines="0" id="VHk-0j-v6b">
+                                                        <color key="textColor" red="0.0" green="0.50196081399917603" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                                        <fontDescription key="font" type="system" weight="thin" pointSize="14"/>
+                                                    </label>
+                                                    <label width="1" height="44" alignment="left" text="Quote" textAlignment="center" numberOfLines="0" id="ccS-QR-DuO">
+                                                        <color key="textColor" red="0.70196080207824707" green="0.70196080207824707" blue="0.70196080207824707" alpha="1" colorSpace="calibratedRGB"/>
+                                                        <fontDescription key="font" type="system" pointSize="10"/>
+                                                    </label>
+                                                </items>
+                                                <edgeInsets key="margins" left="2" right="0.0" top="4" bottom="4"/>
+                                            </group>
+                                        </items>
+                                    </group>
+                                    <connections>
+                                        <outlet property="applicationDetailLabel" destination="ccS-QR-DuO" id="ZY5-Es-che"/>
+                                        <outlet property="applicationTitleLabel" destination="VHk-0j-v6b" id="Zo2-vX-b8H"/>
+                                    </connections>
+                                </tableRow>
+                            </items>
+                        </table>
+                    </items>
+                    <connections>
+                        <outlet property="tableView" destination="ylR-7H-c8M" id="oi1-Br-uca"/>
+                    </connections>
+                </controller>
+            </objects>
+            <point key="canvasLocation" x="235" y="347"/>
+        </scene>
+        <!--DetailInterfaceController-->
+        <scene sceneID="s3D-bc-WN8">
+            <objects>
+                <controller identifier="DetailInterfaceController" id="2QG-Xz-kdY" customClass="DetailInterfaceController">
+                    <items>
+                        <button width="1" alignment="left" title="Such detail" id="LvM-qV-QFt">
+                            <connections>
+                                <segue destination="fhY-4v-yZA" kind="push" id="Iuf-YK-nbU"/>
+                            </connections>
+                        </button>
+                        <imageView width="54" height="54" alignment="center" id="x7e-DW-QEf"/>
+                        <separator alignment="left" id="YU5-Mr-XEO">
+                            <color key="color" red="0.29803922772407532" green="0.29803922772407532" blue="0.29803922772407532" alpha="1" colorSpace="calibratedRGB"/>
+                        </separator>
+                        <label width="134" alignment="center" text="Label" textAlignment="center" numberOfLines="0" id="WY3-6s-Fx4">
+                            <color key="textColor" red="0.0" green="0.50196081399917603" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                        </label>
+                        <separator alignment="left" id="Wmg-jJ-sia">
+                            <color key="color" red="0.29803922772407532" green="0.29803922772407532" blue="0.29803922772407532" alpha="1" colorSpace="calibratedRGB"/>
+                        </separator>
+                        <label width="1" alignment="center" text="Label" textAlignment="center" numberOfLines="0" id="rx4-DE-agM">
+                            <color key="textColor" red="0.0" green="1" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                        </label>
+                        <separator alignment="left" id="nhi-WZ-VSn">
+                            <color key="color" red="0.29803922772407532" green="0.29803922772407532" blue="0.29803922772407532" alpha="1" colorSpace="calibratedRGB"/>
+                        </separator>
+                        <label alignment="center" text="Label" numberOfLines="0" id="z3o-IM-ppe">
+                            <color key="textColor" red="0.70196080207824707" green="0.70196080207824707" blue="0.70196080207824707" alpha="1" colorSpace="calibratedRGB"/>
+                        </label>
+                    </items>
+                    <menu key="menu" id="aRp-nu-hdx">
+                        <items>
+                            <menuItem title="Delete" icon="trash" id="9vz-QV-2a6">
+                                <connections>
+                                    <action selector="menuDeleteAction" destination="2QG-Xz-kdY" id="PPL-gM-OkJ"/>
+                                </connections>
+                            </menuItem>
+                            <menuItem title="Comment" icon="speaker" id="iJa-sf-pLM">
+                                <connections>
+                                    <action selector="menuActionAdd" destination="2QG-Xz-kdY" id="dqj-kT-UId"/>
+                                </connections>
+                            </menuItem>
+                        </items>
+                    </menu>
+                    <connections>
+                        <outlet property="applicationCategoryLabel" destination="rx4-DE-agM" id="UnL-JQ-snT"/>
+                        <outlet property="applicationDetails" destination="z3o-IM-ppe" id="x6b-kq-o9R"/>
+                        <outlet property="applicationImageView" destination="x7e-DW-QEf" id="2z7-Vs-GdG"/>
+                        <outlet property="applicationTitle" destination="WY3-6s-Fx4" id="i7b-xh-atn"/>
+                    </connections>
+                </controller>
+            </objects>
+            <point key="canvasLocation" x="417" y="347"/>
+        </scene>
+        <!--Animation Image Interface Controller-->
+        <scene sceneID="zqM-pz-ypH">
+            <objects>
+                <controller id="fhY-4v-yZA" customClass="AnimationImageInterfaceController">
+                    <items>
+                        <dateLabel alignment="center" textAlignment="center" id="6Ih-1I-tdz">
+                            <dateFormatterStyle key="dateStyle" none="YES" short="YES"/>
+                            <dateFormatterStyle key="timeStyle" none="YES" short="YES"/>
+                        </dateLabel>
+                        <imageView width="136" height="117" alignment="left" id="kg7-Kc-4VV"/>
+                    </items>
+                    <connections>
+                        <outlet property="animationImageView" destination="kg7-Kc-4VV" id="3B6-Ph-mHa"/>
+                    </connections>
+                </controller>
+            </objects>
+            <point key="canvasLocation" x="614" y="352"/>
+        </scene>
+        <!--Glance Interface Controller-->
+        <scene sceneID="BOz-TT-tkC">
+            <objects>
+                <glanceController spacing="0.0" id="0uZ-2p-rRc" customClass="GlanceController">
+                    <items>
+                        <group alignment="left" id="t8f-Gd-c4y">
+                            <items>
+                                <label width="136" height="37" alignment="center" text="Label" textAlignment="center" id="0Zy-GQ-5gz"/>
+                            </items>
+                        </group>
+                        <group alignment="left" id="uCw-4Q-Ouw"/>
+                    </items>
+                    <edgeInsets key="margins" left="0.0" right="0.0" top="0.0" bottom="14"/>
+                </glanceController>
+            </objects>
+            <point key="canvasLocation" x="235" y="672"/>
+        </scene>
+        <!--Static Notification Interface Controller-->
+        <scene sceneID="AEw-b0-oYE">
+            <objects>
+                <notificationController id="YCC-NB-fut">
+                    <items>
+                        <label alignment="left" text="Alert Label" id="XkS-y5-khE"/>
+                    </items>
+                    <notificationCategory key="notificationCategory" identifier="myCategory" id="JfB-70-Muf"/>
+                    <connections>
+                        <outlet property="notificationAlertLabel" destination="XkS-y5-khE" id="49B-RR-99y"/>
+                        <segue destination="gdX-wl-uQE" kind="relationship" relationship="dynamicNotificationInterface" id="fKh-qV-3T2"/>
+                    </connections>
+                </notificationController>
+            </objects>
+            <point key="canvasLocation" x="235" y="1033"/>
+        </scene>
+        <!--Notification Controller-->
+        <scene sceneID="KIl-fV-djm">
+            <objects>
+                <controller id="gdX-wl-uQE" customClass="NotificationController">
+                    <items>
+                        <imageView width="1" height="119" alignment="left" image="I+prefer+this+one+_e6abde12e64313bc4870452218427122" contentMode="center" id="5jl-Gr-3wZ"/>
+                    </items>
+                </controller>
+            </objects>
+            <point key="canvasLocation" x="484" y="1033"/>
+        </scene>
+    </scenes>
+</document>

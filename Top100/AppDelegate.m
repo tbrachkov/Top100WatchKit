@@ -27,7 +27,6 @@
     
     UINavigationController *navigationController = [[UINavigationController alloc] initWithNavigationBarClass:[CustomGradientNavigationBar class] toolbarClass:nil];
     
-    //    NSArray *colors = [NSArray arrayWithObjects:[UIColor colorWithHex:0xf16149 andAlpha:1], [UIColor colorWithHex:0xf14959 andAlpha:1], nil];
     UIColor *firstColor = [UIColor colorWithRed:0.070 green:0.378 blue:0.954 alpha:1.000];
     UIColor *secondColor = [UIColor colorWithRed:0.135 green:1.000 blue:0.106 alpha:1.000];
     
@@ -36,7 +35,9 @@
     
     [[CustomGradientNavigationBar appearance] setBarTintGradientColors:colors];
     [[navigationController navigationBar] setTranslucent:NO];
-
+    
+    NSUserDefaults* sharedUserDefaults = [[NSUserDefaults alloc] initWithSuiteName:@"group.com.mentormate.Top100"];
+    [sharedUserDefaults setObject:[NSDate date] forKey:@"DateAppStart"];
  
     return YES;
 }

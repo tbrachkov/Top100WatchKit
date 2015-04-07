@@ -8,13 +8,10 @@
 
 #import "MasterViewController.h"
 #import "DetailViewController.h"
-#import "Application.h"
-#import "Application+Create.h"
-#import "Application+Delete.h"
-#import "ContextsManager.h"
 #import "DetailTransition.h"
 #import "AppTableViewCell.h"
-#import "Constants.h"
+
+@import DataShareKit;
 
 #define isIOS7 floor(NSFoundationVersionNumber) > NSFoundationVersionNumber_iOS_6_1
 

@@ -1,11 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Scheme
-   LastUpgradeVersion = "0610"
+   LastUpgradeVersion = "0620"
    version = "1.3">
    <BuildAction
       parallelizeBuildables = "YES"
       buildImplicitDependencies = "YES">
       <BuildActionEntries>
+         <BuildActionEntry
+            buildForTesting = "YES"
+            buildForRunning = "YES"
+            buildForProfiling = "YES"
+            buildForArchiving = "YES"
+            buildForAnalyzing = "YES">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "BE7C40B51AC7ED8000B7EA81"
+               BuildableName = "Top100 WatchKit App.app"
+               BlueprintName = "Top100 WatchKit App"
+               ReferencedContainer = "container:Top100.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
          <BuildActionEntry
             buildForTesting = "YES"
             buildForRunning = "YES"
@@ -23,28 +37,14 @@
          <BuildActionEntry
             buildForTesting = "YES"
             buildForRunning = "YES"
-            buildForProfiling = "NO"
-            buildForArchiving = "NO"
+            buildForProfiling = "YES"
+            buildForArchiving = "YES"
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "BEDB6C571A8A9B4400FB73BE"
-               BuildableName = "Top100Tests.xctest"
-               BlueprintName = "Top100Tests"
-               ReferencedContainer = "container:Top100.xcodeproj">
-            </BuildableReference>
-         </BuildActionEntry>
-         <BuildActionEntry
-            buildForTesting = "YES"
-            buildForRunning = "YES"
-            buildForProfiling = "NO"
-            buildForArchiving = "NO"
-            buildForAnalyzing = "YES">
-            <BuildableReference
-               BuildableIdentifier = "primary"
-               BlueprintIdentifier = "BE7C40DD1AC805CE00B7EA81"
-               BuildableName = "DataShareKitTests.xctest"
-               BlueprintName = "DataShareKitTests"
+               BlueprintIdentifier = "BE7C40A31AC7ED7F00B7EA81"
+               BuildableName = "Top100 WatchKit Extension.appex"
+               BlueprintName = "Top100 WatchKit Extension"
                ReferencedContainer = "container:Top100.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
@@ -56,33 +56,13 @@
       shouldUseLaunchSchemeArgsEnv = "YES"
       buildConfiguration = "Debug">
       <Testables>
-         <TestableReference
-            skipped = "NO">
-            <BuildableReference
-               BuildableIdentifier = "primary"
-               BlueprintIdentifier = "BEDB6C571A8A9B4400FB73BE"
-               BuildableName = "Top100Tests.xctest"
-               BlueprintName = "Top100Tests"
-               ReferencedContainer = "container:Top100.xcodeproj">
-            </BuildableReference>
-         </TestableReference>
-         <TestableReference
-            skipped = "NO">
-            <BuildableReference
-               BuildableIdentifier = "primary"
-               BlueprintIdentifier = "BE7C40DD1AC805CE00B7EA81"
-               BuildableName = "DataShareKitTests.xctest"
-               BlueprintName = "DataShareKitTests"
-               ReferencedContainer = "container:Top100.xcodeproj">
-            </BuildableReference>
-         </TestableReference>
       </Testables>
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "BEDB6C381A8A9B4300FB73BE"
-            BuildableName = "Top100.app"
-            BlueprintName = "Top100"
+            BlueprintIdentifier = "BE7C40B51AC7ED8000B7EA81"
+            BuildableName = "Top100 WatchKit App.app"
+            BlueprintName = "Top100 WatchKit App"
             ReferencedContainer = "container:Top100.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
@@ -96,16 +76,27 @@
       ignoresPersistentStateOnLaunch = "NO"
       debugDocumentVersioning = "YES"
       allowLocationSimulation = "YES">
-      <BuildableProductRunnable
-         runnableDebuggingMode = "0">
+      <RemoteRunnable
+         runnableDebuggingMode = "2"
+         BundleIdentifier = "com.apple.springboard"
+         RemotePath = "/Top100">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "BEDB6C381A8A9B4300FB73BE"
-            BuildableName = "Top100.app"
-            BlueprintName = "Top100"
+            BlueprintIdentifier = "BE7C40B51AC7ED8000B7EA81"
+            BuildableName = "Top100 WatchKit App.app"
+            BlueprintName = "Top100 WatchKit App"
             ReferencedContainer = "container:Top100.xcodeproj">
          </BuildableReference>
-      </BuildableProductRunnable>
+      </RemoteRunnable>
+      <MacroExpansion>
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "BE7C40B51AC7ED8000B7EA81"
+            BuildableName = "Top100 WatchKit App.app"
+            BlueprintName = "Top100 WatchKit App"
+            ReferencedContainer = "container:Top100.xcodeproj">
+         </BuildableReference>
+      </MacroExpansion>
       <AdditionalOptions>
       </AdditionalOptions>
    </LaunchAction>
@@ -115,16 +106,27 @@
       useCustomWorkingDirectory = "NO"
       buildConfiguration = "Release"
       debugDocumentVersioning = "YES">
-      <BuildableProductRunnable
-         runnableDebuggingMode = "0">
+      <RemoteRunnable
+         runnableDebuggingMode = "2"
+         BundleIdentifier = "com.apple.springboard"
+         RemotePath = "/Top100">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "BEDB6C381A8A9B4300FB73BE"
-            BuildableName = "Top100.app"
-            BlueprintName = "Top100"
+            BlueprintIdentifier = "BE7C40B51AC7ED8000B7EA81"
+            BuildableName = "Top100 WatchKit App.app"
+            BlueprintName = "Top100 WatchKit App"
             ReferencedContainer = "container:Top100.xcodeproj">
          </BuildableReference>
-      </BuildableProductRunnable>
+      </RemoteRunnable>
+      <MacroExpansion>
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "BE7C40B51AC7ED8000B7EA81"
+            BuildableName = "Top100 WatchKit App.app"
+            BlueprintName = "Top100 WatchKit App"
+            ReferencedContainer = "container:Top100.xcodeproj">
+         </BuildableReference>
+      </MacroExpansion>
    </ProfileAction>
    <AnalyzeAction
       buildConfiguration = "Debug">
