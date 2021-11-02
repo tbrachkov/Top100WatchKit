@@ -2,4 +2,8 @@
 
 Demo demo 
 
-https://platform.cmcmarkets.com/?utm_campaign=spring_sale&utm_medium=cpc&utm_source=google&content=referral&term=cmcmarkets#/loginhttps://github.com/tbrachkov/Top100WatchKit
+https://cmcmarkets.page.link/?link=https://platform.cmcmarkets.com/&apn=com.cmcmarkets.android.cfd&isi=535426268&ibi=com.cmcmarkets.iphone-cfd-unicountry&efr=1
+
+
+
+https://cmcmarkets.page.link/page
